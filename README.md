@@ -6,7 +6,8 @@
 | --- | --- | --- |
 | 1 | Complete | 9/18/21 |
 | 2 | Complete | 9/19/21 |
-| 3 | WIP | --- |
+| 3 | Complete | 9/22/21 |
+| 4 | WIP | --- |
 
 | Date | Pages Completed |
 | --- | --- |
