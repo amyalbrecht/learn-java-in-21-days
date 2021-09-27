@@ -19,4 +19,5 @@
 | 9/22/21 | Pages 87-107 |
 | 9/23/21 | Pages 107-122 | 
 | 9/24/21 | Finished exercises for Lesson 4 |
-| 9/25/21 | Pages 123-? |
+| 9/25/21 | Pages 123-131 |
+| 9/26/21 | Pages 131-140 |
