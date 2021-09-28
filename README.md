@@ -21,3 +21,4 @@
 | 9/24/21 | Finished exercises for Lesson 4 |
 | 9/25/21 | Pages 123-131 |
 | 9/26/21 | Pages 131-140 |
+| 9/27/21 | Pages 140-154, exercises for Lesson 5 WIP |
