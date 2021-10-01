@@ -1,36 +1,32 @@
 package com.java21days.day06;
 
 public class Zipcode {
-    private String zipcode;
+    private int zipcode;
 
-    public Zipcode() {
-        this.zipcode = "";
-    }
-
-    public void setZipcode(String inZipcode) {
-        if ((inZipcode.length() == 5) | (inZipcode.length() == 9)) {
-            zipcode = inZipcode;
-        }
-    }
-
-    public String getZipcode() {
+    public int getZipcode() {
         return zipcode;
     }
 
+    public void setZipcode(int zipcode) {
+        this.zipcode = zipcode;
+    }
+
     public static void main(String[] arguments) {
-        Zipcode zip1 = new Zipcode();
-        zip1.setZipcode("55437");
-        Zipcode zip2 = new Zipcode();
-        zip2.setZipcode("1234567");
-        if (!"".equals(zip1.getZipcode())) {
-            System.out.println("Zipcode1 is " + zip1.getZipcode());
+        Zipcode zip = new Zipcode();
+
+        zip.setZipcode(55437);
+
+        Integer z = 55437;
+        String zipString = Integer.toString(z);
+
+        if (zipString.length() == 5) {
+            System.out.println("The zipcode is " + z);
         } else {
-            System.out.println("Zipcode1 not set");
+            System.out.println("You got the wrong number of digits, buddy.");
         }
-        if (!"".equals(zip2.getZipcode())) {
-            System.out.println("Zipcode2: " + zip2.getZipcode());
-        } else {
-            System.out.println("Zipcode2 not set");
-        }
+
     }
-    }
+
+
+
+}
